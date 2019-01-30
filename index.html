@@ -1,0 +1,1285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Graceful Dezigns</title>
+<link href="images/favi1.png" rel="icon">
+
+<!--Plugins css-->
+<link rel="stylesheet" href="css/plugins.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/util.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+<link rel="stylesheet" href="css/icon-font.min.css">
+<link rel="stylesheet" href="css/theme.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
+   integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+   crossorigin=""/>
+<link rel="stylesheet" href="css/hover.css">
+	
+<!--JS-->
+<script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"
+   integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA=="
+   crossorigin=""></script>
+<script src="js/modernizr.min.js"></script>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="90">
+
+<!--PreLoader-->
+<div class="loader">
+   <div class="loader-inner">
+      <div class="loader-blocks">
+         <span class="block-1"></span>
+         <span class="block-2"></span>
+         <span class="block-3"></span>
+         <span class="block-4"></span>
+         <span class="block-5"></span>
+         <span class="block-6"></span>
+         <span class="block-7"></span>
+         <span class="block-8"></span>
+         <span class="block-9"></span>
+         <span class="block-10"></span>
+         <span class="block-11"></span>
+         <span class="block-12"></span>
+         <span class="block-13"></span>
+         <span class="block-14"></span>
+         <span class="block-15"></span>
+         <span class="block-16"></span>
+      </div>
+   </div>
+</div>
+<!--PreLoader Ends-->
+
+<!-- header -->
+<header class="site-header">
+  <nav class="navbar navbar-expand-lg transparent-bg static-nav">
+      <div class="container">
+         <a class="navbar-brand" href="index.html">
+         <img src="images/logo.png"  alt=""/>
+         </a>
+         <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#xenav">
+            <span> </span>
+            <span> </span>
+            <span> </span>
+         </button>
+         <div class="collapse navbar-collapse" id="xenav">
+            <ul class="navbar-nav ml-auto">
+               <li class="nav-item active">
+                  <a class="nav-link" href="index.html#banner-main" data-text="Home">Home</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="index.html#twocopies" data-text="Features">Intro</a>
+               </li>
+               
+               <li class="nav-item">
+                  <a class="nav-link" href="index.html#portfolio-xe" data-text="Portfolio">Portfolio</a>
+               </li>
+				<li class="nav-item">
+                  <a class="nav-link" href="index.html#our-team" data-text="Team">About Me</a>
+               </li>
+				
+				<li class="nav-item">
+                  <a class="nav-link" href="index.html#our-apps" data-text="Packages">Resume</a>
+               </li>
+				
+				<li class="nav-item">
+                  <a class="nav-link" href="index.html#our-testimonial" data-text="Clients">Testimonials</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="index.html#contactus" data-text="contact">contact</a>
+               </li>
+            </ul>
+         </div>
+    </div>
+      <!--side menu open button-->
+      <a href="javascript:void(0)" class="d-none d-lg-inline-block sidemenu_btn" id="sidemenu_toggle">
+          <span></span> <span></span> <span></span>
+       </a>
+   </nav>
+   <!-- side menu -->
+   <div class="side-menu">
+      <div class="inner-wrapper">
+         <span class="btn-close" id="btn_sideNavClose"><i></i><i></i></span>
+         <nav class="side-nav w-100">
+            <ul class="navbar-nav">
+               <li class="nav-item">
+                  <a class="nav-link active" href="#banner-main">Home</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#twocopies">Intro</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#portfolio-xe">Portfolio</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#our-apps">Resume</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#our-team">About Me</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#our-testimonial">Testimonials</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#contactus">contact</a>
+               </li>
+            </ul>
+         </nav>
+
+         <div class="side-footer w-100">
+            <ul class="social-icons-simple white top40">
+               <li><a href="javascript:void(0)"><i class="fab fa-facebook-f"></i> </a> </li>
+               <li><a href="javascript:void(0)"><i class="fab fa-linkedin-in"></i> </a> </li>
+               <li><a href="javascript:void(0)"><i class="far fa-envelope"></i> </a> </li>
+            </ul>
+            <p class="whitecolor">&copy; 2018 Graceful Web Dezigns</p>
+         </div>
+      </div>
+   </div>
+   <a id="close_side_menu" href="javascript:void(0);"></a>
+   <!-- End side menu -->
+</header>
+<!-- header -->
+
+
+
+<!--Main Slider-->
+<div id="revo_main_wrapper" class="rev_slider_wrapper fullwidthbanner-container">
+    <div id="banner-main" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.4.1">
+        <ul>  
+            <!-- SLIDE 1  -->
+            <li data-index="rs-01" data-transition="fade" data-slotamount="default" data-easein="Power3.easeInOut" data-easeout="Power3.easeInOut" data-masterspeed="2000" data-fsmasterspeed="1500" class="banner-overlay">
+              <!-- MAIN IMAGE -->
+				<img src="video/landing.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="7" data-no-retina>
+                			
+				 <div class="rs-background-video-layer" 
+                  data-forcerewind="on" 
+                  data-volume="mute" 
+                  data-videowidth="100%" 
+                  data-videoheight="100%" 
+                  data-videomp4="video/landing(2).mp4" 
+                  data-videopreload="auto" 
+                  data-videoloop="loopandnoslidestop" 
+                  data-forceCover="1" 
+                  data-aspectratio="16:9" 
+                  data-autoplay="true" 
+                  data-autoplayonlyfirsttime="false"></div>
+          
+               
+                <div class="tp-caption tp-resizeme" 
+                   data-x="['left','left','left','center']" data-hoffset="['0','0','0','0']" 
+                   data-y="['middle','middle','middle','middle']" data-voffset="['-70','-70','-50','-50']" 
+                   data-whitespace="nowrap" data-responsive_offset="on"
+                   data-width="['none','none','none','none']" data-type="text"
+                   data-textalign="['left','left','left','center']"
+                   data-transform_idle="o:1;" data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" 
+                   data-start="1200" data-splitin="none" data-splitout="none">
+                    <h1 class="text-capitalize whitecolor font-light">Better Design.</h1>
+                </div>
+                <div class="tp-caption tp-resizeme whitecolor" 
+                   data-x="['left','left','left','center']" data-hoffset="['0','0','0','0']" 
+                   data-y="['middle','middle','middle','middle']" data-voffset="['-10','-10','0','0']" 
+                   data-whitespace="nowrap" data-responsive_offset="on"
+                   data-width="['none','none','none','none']" data-type="text"
+                   data-textalign="['left','left','left','center']" data-fontsize="['24','24','20','20']"
+                   data-transform_idle="o:1;" 
+                   data-transform_in="z:0;rX:0deg;rY:0;rZ:0;sX:2;sY:2;skX:0;skY:0;opacity:0;s:1000;e:Power2.easeOut;" 
+			       data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" 
+			       data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
+                   data-start="1500" data-splitin="none" data-splitout="none">
+                    <h1 class="whitecolor fontbold">Better Experiences.</h1>
+                </div>
+                <div class="tp-caption tp-resizeme text-center" 
+                   data-x="['left','left','left','center']" data-hoffset="['0','0','0','0']" 
+                   data-y="['middle','middle','middle','middle']" data-voffset="['100','100','80','80']"  
+                   data-whitespace="nowrap" data-type="button" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power4.easeInOut;" 
+                   data-transform_out="s:900;e:Power2.easeInOut;s:900;e:Power2.easeInOut;" 
+                   data-start="2000" data-splitin="none" data-splitout="none" data-responsive_offset="on">
+                    <a class="button btnwhite-hole pagescroll" href="#our-process">Learn More</a>
+               </div>
+				
+								
+			   <div class="tp-caption rev-scroll-btn  revs-light"  
+                        id="" 
+                        data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+                        data-y="['bottom','bottom','bottom','bottom']" data-voffset="['90','90','70','50']" 
+                        data-width="30" data-height="45"
+                        data-whitespace="nowrap"
+                        data-type="button" data-responsive_offset="on" 
+                        data-actions='[{"event":"click","action":"scrollbelow","offset":"px","delay":"","speed":1000}]'
+                        data-basealign="slide" 
+                        data-frames='[{"from":"y:-50px;opacity:0;","speed":1500,"to":"o:1;","delay":800,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'
+                        data-textAlign="['left','left','left','left']"
+                        data-paddingtop="[0,0,0,0]"
+                        data-paddingright="[0,0,0,0]"
+                        data-paddingbottom="[0,0,0,0]"
+                        data-paddingleft="[0,0,0,0]"
+                        style="z-index: 19; min-width: 35px; max-width: 35px; max-width: 55px; max-width: 55px; white-space: nowrap; font-weight: 400;border-color:rgba(255, 255,255, 1.00);border-style:solid;border-width:2px;border-radius:23px 23px 23px 23px;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">
+				   		<span></span>
+						</div>
+				   	
+						<div class="bold-heading tp-caption" 
+						 id="slide-236-layer-4" 
+						 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+						 data-y="['bottom','bottom','bottom','bottom']" data-voffset="['50','50','30','30']" 
+									data-width="none"
+						data-height="none"
+						data-whitespace="nowrap"
+
+						data-type="text" 
+						data-basealign="slide" 
+						data-responsive_offset="off" 
+						data-responsive="off"
+						data-frames='[{"from":"y:50px;opacity:0;","speed":1000,"to":"o:1;","delay":1900,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","ease":"nothing"}]'
+						data-textAlign="['left','left','left','left']"
+						data-paddingtop="[0,0,0,0]"
+						data-paddingright="[0,0,0,0]"
+						data-paddingbottom="[0,0,0,0]"
+						data-paddingleft="[0,0,0,0]"
+
+			style="font-family:Heading, sans-serif;z-index: 8; white-space: nowrap; color: rgba(255,255,255,1);text-transform:left;">Scroll Down </div>
+					
+				<div class="tp-bannertimer tp-bottom" style="visibility:hidden !important;"></div>	
+           </li>
+			
+            <!-- SLIDE 2  -->
+	
+               <li data-index="rs-02"   data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="500"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="" >
+                   <!-- main image -->
+                   <img src="images/banner-carousel.jpg" data-bgcolor="#e0e0e0" alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
+                   <!-- layers -->
+
+                   <!-- layer nr. 1 -->
+                   <div class="tp-caption tp-resizeme rs-parallaxlevel-16" 
+                        id="layers-one" 
+                        data-x="['left','left','left','left']" data-hoffset="['-264','-264','-240','-264']" 
+                        data-y="['top','top','top','top']" data-voffset="['30','30','50','80']" 
+                        data-width="none"
+                        data-height="none"
+                        data-whitespace="nowrap"
+                        data-type="image" 
+                        data-basealign="slide" 
+                        data-responsive_offset="on" 
+                        data-frames='[{"from":"x:left;rZ:-90deg;","speed":2500,"to":"o:1;","delay":500,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'
+                        data-textAlign="['left','left','left','left']"
+                        data-paddingtop="[0,0,0,0]"
+                        data-paddingright="[0,0,0,0]"
+                        data-paddingbottom="[0,0,0,0]"
+                        data-paddingleft="[0,0,0,0]"
+                        style=""><img src="images/top_left.png" alt="" data-ww="['650px','650px','650px','650px']" data-hh="['500px','500px','500px','500px']" width="650" height="500" data-no-retina> </div>
+
+                   <!-- layer nr. 2 -->
+                   <div class="tp-caption tp-resizeme rs-parallaxlevel-15" 
+                        id="layers-two" 
+                        data-x="['right','right','right','right']" data-hoffset="['-5','-5','-70','-144']" 
+                        data-y="['top','top','top','top']" data-voffset="['-40','-40','-80','-80']" 
+                        data-width="none"
+                        data-height="none"
+                        data-whitespace="nowrap"
+                        data-type="image" 
+                        data-basealign="slide" 
+                        data-responsive_offset="on" 
+                        data-frames='[{"from":"x:right;y:-500px;rZ:90deg;","speed":2500,"to":"o:1;","delay":500,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'
+                        data-textAlign="['left','left','left','left']"
+                        data-paddingtop="[0,0,0,0]"
+                        data-paddingright="[0,0,0,0]"
+                        data-paddingbottom="[0,0,0,0]"
+                        data-paddingleft="[0,0,0,0]"
+                        style="z-index: 6;border-width:0px;"><img src="images/top_right.png" alt="" data-ww="['550px','550px','550px','550px']" data-hh="['471px','471px','471px','471px']" width="550" height="471" data-no-retina> </div>
+
+                   <!-- layer nr. 3 -->
+                   <div class="tp-caption tp-resizeme rs-parallaxlevel-10" 
+                        id="layers-three" 
+                        data-x="['left','left','left','left']" data-hoffset="['-392','-392','-540','-638']" 
+                        data-y="['bottom','bottom','bottom','bottom']" data-voffset="['-484','-484','-520','-522']" 
+                        data-width="none"
+                        data-height="none"
+                        data-whitespace="nowrap"
+                        data-type="image" 
+                        data-basealign="slide" 
+                        data-responsive_offset="on" 
+                        data-frames='[{"from":"x:left;rZ:45deg;","speed":2500,"to":"o:1;","delay":650,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'
+                        data-textAlign="['left','left','left','left']"
+                        data-paddingtop="[0,0,0,0]"
+                        data-paddingright="[0,0,0,0]"
+                        data-paddingbottom="[0,0,0,0]"
+                        data-paddingleft="[0,0,0,0]"
+                        ><img src="images/papers.png" alt="" data-ww="['900px','900px','900px','900px']" data-hh="['1000px','1000px','1000px','1000px']" width="900" height="1000" data-no-retina> </div>
+
+                   <!-- layer nr. 4 -->
+                   <div class="tp-caption tp-resizeme rs-parallaxlevel-12" 
+                        id="layers-four" 
+                        data-x="['left','left','left','left']" data-hoffset="['134','134','-2','-57']" 
+                        data-y="['bottom','bottom','bottom','bottom']" data-voffset="['67','67','50','6']" 
+                        data-width="none"
+                        data-height="none"
+                        data-whitespace="nowrap"
+                        data-type="image" 
+                        data-basealign="slide" 
+                        data-responsive_offset="on" 
+                        data-frames='[{"from":"y:bottom;rZ:90deg;","speed":1500,"to":"o:1;","delay":1050,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'
+                        data-textAlign="['left','left','left','left']"
+                        data-paddingtop="[0,0,0,0]"
+                        data-paddingright="[0,0,0,0]"
+                        data-paddingbottom="[0,0,0,0]"
+                        data-paddingleft="[0,0,0,0]"
+                        style=""><img src="images/header_marker.png" alt="" data-ww="['200px','200px','200px','200px']" data-hh="['300px','300px','300px','300px']" width="200" height="300" data-no-retina> </div>
+
+                   <!-- layer nr. 5 -->
+                   <div class="tp-caption tp-resizeme rs-parallaxlevel-15" 
+                        id="layers-five" 
+                        data-x="['left','left','left','left']" data-hoffset="['181','181','30','-39']" 
+                        data-y="['bottom','bottom','bottom','bottom']" data-voffset="['-170','-170','-190','-212']" 
+                        data-width="none"
+                        data-height="none"
+                        data-whitespace="nowrap"
+                        data-type="image" 
+                        data-basealign="slide" 
+                        data-responsive_offset="on" 
+                        data-frames='[{"from":"y:bottom;rZ:-90deg;","speed":1500,"to":"o:1;","delay":1250,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'
+                        data-textAlign="['left','left','left','left']"
+                        data-paddingtop="[0,0,0,0]"
+                        data-paddingright="[0,0,0,0]"
+                        data-paddingbottom="[0,0,0,0]"
+                        data-paddingleft="[0,0,0,0]"
+                        style=""><img src="images/header_edding.png" id="layers-five" alt="" data-ww="['300px','300px','300px','300px']" data-hh="['400px','400px','400px','400px']" width="300" height="400" data-no-retina> </div>
+
+                   <!-- layer nr. 8 -->
+                   <div class="tp-caption tp-resizeme rs-parallaxlevel-11" 
+                        id="layers-six" 
+                        data-x="['right','right','right','right']" data-hoffset="['-364','-364','-479','-553']" 
+                        data-y="['bottom','bottom','bottom','bottom']" data-voffset="['-155','-155','-180','-202']" 
+                        data-width="none"
+                        data-height="none"
+                        data-whitespace="nowrap"
+                        data-type="image" 
+                        data-basealign="slide" 
+                        data-responsive_offset="on" 
+                        data-frames='[{"from":"x:right;rZ:-65deg;","speed":1500,"to":"o:1;","delay":700,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'
+                        data-textAlign="['left','left','left','left']"
+                        data-paddingtop="[0,0,0,0]"
+                        data-paddingright="[0,0,0,0]"
+                        data-paddingbottom="[0,0,0,0]"
+                        data-paddingleft="[0,0,0,0]"
+                        style="z-index: 12;border-width:0px;"><img src="images/bottom_right.png" alt="" data-ww="['730px','730px','730px','730px']" data-hh="['520px','520px','520px','520px']" width="730" height="520" data-no-retina> </div>
+
+                   <!-- layer nr. 9 -->
+                   <div class="tp-caption tp-resizeme rs-parallaxlevel-15" 
+                        id="layers-sev" 
+                        data-x="['right','right','right','right']" data-hoffset="['222','222','105','8']" 
+                        data-y="['bottom','bottom','bottom','bottom']" data-voffset="['8','8','-17','-10']" 
+                        data-width="none"
+                        data-height="none"
+                        data-whitespace="nowrap"
+                        data-type="image" 
+                        data-basealign="slide" 
+                        data-responsive_offset="on" 
+                        data-frames='[{"from":"x:right;rZ:90deg;","speed":1500,"to":"o:1;","delay":500,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'
+                        data-textAlign="['left','left','left','left']"
+                        data-paddingtop="[0,0,0,0]"
+                        data-paddingright="[0,0,0,0]"
+                        data-paddingbottom="[0,0,0,0]"
+                        data-paddingleft="[0,0,0,0]"
+                        style="z-index: 13;border-width:0px;"><img src="images/bottom_pen.png" alt="" data-ww="['300px','300px','300px','300px']" data-hh="['500px','500px','500px','500px']" width="300" height="500" data-no-retina> </div>
+
+                     <div class="tp-caption tp-resizeme" 
+                        data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+                        data-y="['middle','middle','middle','middle']" data-voffset="['-70','-70','-70','-70']" 
+                        data-whitespace="nowrap" data-responsive_offset="on"
+                        data-width="['none','none','none','none']" data-type="text"
+                        data-textalign="['center','center','center','center']" 
+                        data-transform_idle="o:1;"
+                        data-transform_in="x:-50px;opacity:0;s:2000;e:Power3.easeOut;" 
+                        data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" 
+                        data-start="1000" data-splitin="none" data-splitout="none">
+                        <h2 class="text-capitalize whitecolor fontbold text-center" id="resizetxt">Innovation meets Style</h2>
+                     </div>
+
+                     <div class="tp-caption tp-resizeme" 
+                        data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+                        data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" 
+                        data-whitespace="nowrap" data-responsive_offset="on"
+                        data-width="['none','none','none','none']" data-type="text"
+                        data-textalign="['center','center','center','center']"
+                        data-transform_idle="o:1;" 
+                        data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" 
+                        data-transform_out="s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"  
+                        data-start="1000" data-splitin="none" data-splitout="none">
+                        <h1 class="text-capitalize fontbold whitecolor"> </h1>
+                     </div>
+                     <div class="tp-caption tp-resizeme whitecolor" 
+                        data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+                        data-y="['middle','middle','middle','middle']" data-voffset="['70','70','70','70']" 
+                        data-whitespace="nowrap" data-responsive_offset="on"
+                        data-width="['none','none','none','none']" data-type="text"
+                        data-textalign="['center','center','center','center']" data-fontsize="['24','24','20','20']"
+                        data-transform_idle="o:1;" 
+                        data-transform_in="z:0;rX:0deg;rY:0;rZ:0;sX:2;sY:2;skX:0;skY:0;opacity:0;s:1000;e:Power2.easeOut;" 
+                        data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" 
+                        data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
+                        data-start="1500" data-splitin="none" data-splitout="none">
+                        <h4 class="whitecolor font-light text-center">Modern Web Faces</h4>
+                     </div>                
+                     <div class="tp-caption tp-resizeme" 
+                        data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+                        data-y="['middle','middle','middle','middle']" data-voffset="['160','160','160','160']"  
+                        data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power4.easeInOut;" data-transform_out="s:900;e:Power2.easeInOut;s:900;e:Power2.easeInOut;" data-start="2000" data-splitin="none" data-splitout="none" data-responsive_offset="on">
+                        <a class="button btnprimary pagescroll" href="#our-process">Learn More</a>
+                     </div>
+
+                   <!-- layer nr. 15 -->
+                   <div class="tp-caption rev-scroll-btn revs-dark" 
+                        id="layers-thir" 
+                        data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+                        data-y="['bottom','bottom','bottom','bottom']" data-voffset="['90','90','70','50']" 
+                        data-width="30" data-height="45"
+                        data-whitespace="nowrap"
+                        data-type="button" data-responsive_offset="on" 
+                        data-actions='[{"event":"click","action":"scrollbelow","offset":"px","delay":"","speed":1000}]'
+                        data-basealign="slide" 
+                        data-frames='[{"from":"y:-50px;opacity:0;","speed":1500,"to":"o:1;","delay":800,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'
+                        data-textAlign="['left','left','left','left']"
+                        data-paddingtop="[0,0,0,0]"
+                        data-paddingright="[0,0,0,0]"
+                        data-paddingbottom="[0,0,0,0]"
+                        data-paddingleft="[0,0,0,0]"
+                        style="z-index: 19; min-width: 35px; max-width: 35px; max-width: 55px; max-width: 55px; white-space: nowrap; font-weight: 400;border-color:rgba(0, 0, 0, 1.00);border-style:solid;border-width:2px;border-radius:23px 23px 23px 23px;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">
+                       <span></span>												
+                   </div>
+				   
+						<div class="bold-heading tp-caption" 
+			 id="slide-236-layer-4" 
+			 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+			 data-y="['bottom','bottom','bottom','bottom']" data-voffset="['50','50','30','30']" 
+						data-width="none"
+			data-height="none"
+			data-whitespace="nowrap"
+ 
+			data-type="text" 
+			data-basealign="slide" 
+			data-responsive_offset="off" 
+			data-responsive="off"
+			data-frames='[{"from":"y:50px;opacity:0;","speed":1000,"to":"o:1;","delay":1900,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","ease":"nothing"}]'
+			data-textAlign="['left','left','left','left']"
+			data-paddingtop="[0,0,0,0]"
+			data-paddingright="[0,0,0,0]"
+			data-paddingbottom="[0,0,0,0]"
+			data-paddingleft="[0,0,0,0]"
+
+			style="font-family:Heading, sans-serif;z-index: 8; white-space: nowrap; color: rgba(0,0,0,1);text-transform:left;">Scroll Down </div>
+				   
+				   <div class="tp-bannertimer tp-bottom" style="visibility:hidden !important;"></div>
+			 </li>
+        </ul>
+    </div>
+</div>
+<!--Main Slider ends -->
+<!--half img section-->
+<div id="twocopies">  
+<section class="half-section">
+   <div class="container-fluid">
+      <div class="row">
+         <div class="col-md-6 padding_bottom wow fadeInLeft" data-wow-delay="300ms ">
+            <div class="laptop-wrapper image img-container">
+				
+								
+               <video class="intro hover-effect" controls="true">
+
+              		<source src="video/intro_sm.mp4" type="video/mp4">
+				    <source src="video/intro.ogg" type="video/ogg">
+				    <source src="video/intro.webm" type="video/webm">
+            
+            		Your browser does not support the video tag.
+               </video> 				
+	         </div>
+         </div>
+         <div class="col-md-6 nopadding">
+            <div class="split-box text-center center-block container-padding equalheight">
+               <div class="heading-title padding">
+               <span class="wow fadeInUp" data-wow-delay="300ms">Services Offered</span>
+               <h2 class="darkcolor bottom20 wow fadeInUp" data-wow-delay="400ms">Creative Designs</h2>
+               <h5 class="heading_space wow fadeInUp" data-wow-delay="500ms"> Graceful Dezigns provides a unique approach in user interface, web, and graphics designs. All projects are driven by passion to develop a creative and irresistible identity! Always taking a thoughtful approach to the user interface and user experience ensures clients a way to separate themselves apart from the rest.  Here we push beyond the limits to create productions that both engages audiences and creates impact. Graceful Dezigns offers promotional and branding campaigns which helps clients build better sites and create awesome graphics that improve their credibility online and facilitate customer relationships.
+				   </h5>
+               <a href="#portfolio_top" class="button btnprimary pagescroll wow fadeInUp" data-wow-delay="600ms">Design Works</a>  
+            </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+
+</div>  
+<div class="home-concept">
+	<div class="container1">
+		<div class="row center pad">
+				<span class="sun"></span>
+				<span class="cloud"></span>
+			<div class="col-md-2 col-md-offset-1">
+					<div class="process-image appear-animation" data-appear-animation="bounceIn">
+					<img src="images/images (2).png" alt=""/>
+					<strong>Strategy</strong>
+				</div>
+			</div>
+			<div class="col-md-2">
+				<div class="process-image appear-animation" data-appear-animation="bounceIn" data-appear-animation-delay="300">
+					<img src="images/images (1).png" alt=""/>
+					<strong>Build</strong>
+				</div>
+			</div>
+			<div class="col-md-2">
+				<div class="process-image appear-animation" data-appear-animation="bounceIn" data-appear-animation-delay="600">
+							<img src="images/images.png" alt=""/>
+					<strong>Test!</strong>
+				</div>
+			</div>
+			<div class="col-md-4 col-md-offset-1">
+					<div class="project-image">
+						<div id="fcSlideshow" class="fc-slideshow">
+							<ul class="fc-slides">
+								<li><img class="img-responsive" src="images/result3.jpg" alt="" /></li>
+								<li><img class="img-responsive" src="images/result2.jpg" alt="" /></li>
+								<li><img class="img-responsive" src="images/result1.jpg" alt="" /></li>
+							</ul>
+						</div>
+					<strong class="our-work">.. and Presto!</strong>
+				</div>
+			</div>
+		</div>				
+	</div>
+</div>  
+<section id="our-process" class="angle--both-left-right padding gradient_bg_default">
+	   <div class="container">
+        <div class="row">
+         <div class="col-md-12 col-sm-12 text-center">
+            <div class="heading-title wow fadeInUp" data-wow-delay="300ms">
+               <h2 class="whitecolor"><span class="fontregular">Perk's</span> </h2>
+            </div>
+         </div>
+		   </div>
+		 <div class="row">
+         <ul class="process-wrapp">
+            <li class="whitecolor wow fadeIn" data-wow-delay="300ms">
+               <span class="pro-step bottom20"><i class="fab fa-sketch"></i></span>
+               <p class="bold-heading bottom25">User Experience </p>
+               <p>If there’s a ‘trick’ to it, the UI is broken. UX is where functionality and visual presentation meets. Graceful Dezigns makes applications the perform brilliantly and create great experiences.</p>
+            </li>
+            <li class="whitecolor wow fadeIn" data-wow-delay="400ms">
+               <span class="pro-step bottom20"><i class="fas fa-clock"></i></span>
+               <p class="bold-heading  bottom25">Beyond the 9 to 5</p>
+               <p> Throw typical office hours out the window! Going the extra mile to complete the projects is a caliber merited by Graceful Dezigns. Additionally, Graceful Dezigns offers remote opportunities making these unique services accessible to many markets.</p>
+            </li>
+            <li class="whitecolor wow fadeIn" data-wow-delay="500ms">
+               <span class="pro-step bottom20"><i class="far fa-comment-dots"></i></span>
+               <p class="bold-heading  bottom25">Tech Talk</p>
+               <p>Communication is key. Tech talk can be another language to most. Grace’s communications ranges from collaborating with other highly technical individuals and commuting technical ideas to clients.</p>
+            </li>
+            <li class="whitecolor wow fadeIn" data-wow-delay="600ms">
+               <span class="pro-step bottom20"><i class="fas fa-layer-group"></i></span>
+               <p class="bold-heading  bottom25">Improvements</p>
+               <p>Every problem is an opportunity for a creative solution. Weather the project is in the beginning stages or needs a tune up, Graceful Dezigns can assist in improving any stage of project.</p>
+            </li>
+            <li class="whitecolor wow fadeIn" data-wow-delay="700ms">
+               <span class="pro-step bottom20"><i class="fas fa-chart-line"></i></span>
+               <p class="bold-heading  bottom25">Quality</p>
+               <p>Perfection is a standard that is debatable by most. Perfection it is what is strived for at Graceful Dezigns.</p>
+            </li>
+         </ul>
+      </div>
+	</div>
+  </section>
+<!--WOrk Process ends-->
+<!--Gallery-->
+<section id="portfolio-xe" class="angle--top-left bglight padding" style="margin-top:-108px;" >
+   <div class="container">
+    <div class="row">
+         <div class="col-md-8 offset-md-2 col-sm-12 text-center">
+            <div class="heading-title wow fadeInDown" data-wow-delay="300ms">
+               <span>Portfolio Designs</span>
+               <h2 class="darkcolor bottom10">Creative Work</h2>
+               <p class="heading_space">Like what you see? Let's get in touch!</p>
+               <div id="flat-filters" class="cbp-l-filters dark bottom30">
+               <div data-filter="*" class="cbp-filter-item">
+                  <span>All</span>
+               </div>
+               <div data-filter=".web" class="cbp-filter-item">
+                  <span>Web</span>
+               </div>
+               <div data-filter=".print" class="cbp-filter-item">
+                  <span>Print</span>
+               </div>
+               <div data-filter=".graphic" class="cbp-filter-item">
+                  <span>Graphic</span>
+               </div>
+               <div data-filter=".logo" class="cbp-filter-item">
+                  <span>Logo</span>
+               </div>
+            </div>
+            </div>
+         </div>
+      </div>
+      <div id="flat-gallery" class="cbp"> 
+         <div class="cbp-item web">
+            <img src="images/aztec_sm.jpg" alt="">
+            <div class="overlay center-block whitecolor">
+               <a class="plus" data-fancybox="gallery" href="images/aztec_sm.jpg"></a>
+               <h4 class="top30">Aztec Software</h4>
+               <p>Aztec Software is a company Grace contributed to developing the frontend of a browser based educational series for college courses.</p>
+            </div>
+         </div>
+         <div class="cbp-item web">
+            <img src="images/ux-sm.jpg" alt="">
+            <div class="overlay center-block whitecolor">
+               <a class="plus" data-fancybox="gallery" href="images/ux-sm.jpg"></a>
+               <h4 class="top30">Graceful Dezigns Re-Coded!</h4>
+               <p>Graceful Dezigns site was looking a bit outdated, Grace re-coded the entire site start to finish! Aiming to give a modern user experience and feel.</p>
+            </div>
+         </div>
+         <div class="cbp-item graphic logo">
+            <img src="images/green_sm.jpg" alt="">
+            <div class="overlay center-block whitecolor">
+               <a class="plus" data-fancybox="gallery" href="images/green_sm.jpg"></a>
+               <h4 class="top30">Non- Profit Company Work</h4>
+               <p>A poster designed by Grace.</p>
+            </div>
+         </div>
+         <div class="cbp-item graphic logo">
+            <img src="images/p2pcard_sm.jpg" alt="">
+            <div class="overlay center-block whitecolor">
+               <a class="plus" data-fancybox="gallery" href="images/p2pcard_sm.jpg"></a>
+               <h4 class="top30">Business Cards</h4>
+               <p>Client based work for a local trucking company.</p>
+            </div>
+         </div>
+         <div class="cbp-item graphic logo">
+            <img src="images/bombay-sm.jpg" alt="bomb">
+            <div class="overlay center-block whitecolor">
+               <a class="plus"  data-fancybox="gallery" href="images/bombay-sm.jpg"></a>
+               <h4 class="top30">Logo Creation</h4>
+               <p>Proprietary contracted for a branding company. Grace created the logo.</p>
+            </div>
+         </div>
+         <div class="cbp-item graphic">
+            <img src="images/cherrybomb-sm.jpg" alt="cherrybomb">
+            <div class="overlay center-block whitecolor">
+               <a class="plus" data-fancybox="gallery" href="images/cherrybomb-sm.jpg"></a>
+               <h4 class="top30">Concept Graphics</h4>
+               <p>This project was part of s branding initiative for a logo created for a client.</p>
+            </div>
+         </div>
+		  
+         <div class="cbp-item graphic print">
+            <img src="images/postcard_sm.jpg" alt="">
+            <div class="overlay center-block whitecolor">
+               <a class="plus" data-fancybox="gallery" href="images/postcard_sm.jpg"></a>
+               <h4 class="top30">Postcard Production</h4>
+               <p>Grace desinged the postcard, the was sld to a printshop copmany for production.</p>
+            </div>
+         </div>
+         <div class="cbp-item graphic print">
+            <img src="images/midas-sm.jpg" alt="midas">
+            <div class="overlay center-block whitecolor">
+               <a class="plus" data-fancybox="gallery" href="images/midas-sm.jpg"></a>
+               <h4 class="top30">Concept Graphics</h4>
+               <p>Graphic art poster designed by Grace.</p>
+            </div>
+         </div>
+         <div class="cbp-item graphic print">
+            <img src="images/cream2_sm.jpg" alt="">
+            <div class="overlay center-block whitecolor">
+               <a class="plus" data-fancybox="gallery" href="images/cream2_sm.jpg"></a>
+               <h4 class="top30">Logo Brand Design </h4>
+             	<p>Created a strawberry inspired logo, giving the letters a realistic feel of strawberries for a company that makes fruit sherbet.</p>
+            </div>
+		  </div>
+		  <div class="cbp-item logo graphic">
+            <img src="images/gracefulcard_sm.jpg" alt="">
+            <div class="overlay center-block whitecolor">
+               <a class="plus" data-fancybox="gallery" href="images/gracefulcard_sm.jpg"></a>
+               <h4 class="top30">Personal Business Card</h4>
+               <p>Made to reflect the brand and identity of Graceful Dezigns.</p>
+            </div>
+		  </div>
+		   <div class="cbp-item graphic print">
+            <img src="images/sahara-sm.jpg" alt="sahara">
+            <div class="overlay center-block whitecolor">
+               <a class="plus" data-fancybox="gallery" href="images/sahara-sm.jpg"></a>
+               <h4 class="top30">Concept Graphics</h4>
+               <p>Graphic art poster designed by Grace.</p>
+            </div>
+		  </div>
+		  <div class="cbp-item logo graphic">
+            <img src="images/burst_sm.jpg" alt="">
+            <div class="overlay center-block whitecolor">
+               <a class="plus" data-fancybox="gallery" href="images/burst_sm.jpg"></a>
+               <h4 class="top30">Concept Graphics</h4>
+               <p>Grace designed this for a Local blue grass artist poster.</p>
+            </div>
+		  </div>
+		  <div class="cbp-item graphic print">
+            <img src="images/tshirt-sm.jpg" alt="tshirt">
+            <div class="overlay center-block whitecolor">
+               <a class="plus" data-fancybox="gallery" href="images/tshirt-sm.jpg"></a>
+               <h4 class="top30">Concept Graphics</h4>
+               <p>Proprietary contracted work for merchandise.</p>
+            </div>
+		  </div>
+	     <div class="cbp-item logo graphic">
+            <img src="images/type-sm.jpg" alt="type">
+            <div class="overlay center-block whitecolor">
+               <a class="plus" data-fancybox="gallery" href="images/type-sm.jpg"></a>
+               <h4 class="top30">Typography/ Font Design</h4>
+               <p>This idea initially drawn on a napkin by Grace brought to graphic life! First step was the concept, then meticulously constructing the font itself by hand, and lastly digitizing the font.</p>
+            </div>
+		  </div>
+		  <div class="cbp-item graphic print">
+            <img src="images/albulm_sm.jpg" alt="">
+            <div class="overlay center-block whitecolor">
+               <a class="plus" data-fancybox="gallery" href="images/albulm_sm.jpg"></a>
+               <h4 class="top30">Album Art</h4>
+               <p>Local bluegrass musician album cover art designed by Grace.</p>
+            </div>
+		  </div>
+		   <div class="cbp-item web">
+            <img src="images/dynatrace-sm.jpg" alt="type">
+            <div class="overlay center-block whitecolor">
+               <a class="plus" data-fancybox="gallery" href="images/dynatrace-sm.jpg"></a>
+               <h4 class="top30">Dynatrace</h4>
+               <p>Added to portfolio for demonstrated knowledge.</p>
+            </div>
+		  </div>
+		  <div class="cbp-item graphic print">
+            <img src="images/retouch-sm.jpg" alt="">
+            <div class="overlay center-block whitecolor">
+               <a class="plus" data-fancybox="gallery" href="images/retouch-sm.jpg"></a>
+               <h4 class="top30">Personal Work</h4>
+               <p>Demonstrating image manipluationg and retouching.</p>
+            </div>
+		  </div>
+      </div>
+   </div>
+</section>
+<!--Gallery ends -->    
+
+<!-- Qoutes -->  
+<section id="our-testimonialxe" class="angle--bottom-left padding testimonial-bg-light parallaxie">
+   <div class="container">
+      <div class="row">
+         <div class="col-md-12 col-sm-12">
+            <div id="owl-thumbs" class="owl-dots text-center bottom45">
+               <div class="owl-dot active"><img src="images/avatar.png" alt=""></div>
+               <div class="owl-dot"><img src="images/avatar.png" alt=""></div>
+               <div class="owl-dot"><img src="images/avatar.png" alt=""></div>
+            </div>
+            <div id="testimonial-quote-nav" class="owl-carousel no-quote">
+				 <div class="item">
+                  <div class="row">
+                     <div class="col-md-8 offset-md-2 col-sm-10 offset-sm-1">
+                        <div class="testimonial-quote darkcolor">
+                           <h3 class="bottom30 font-xlight">
+   							 One machine can do the work of fifty ordinary men. No machine can do the work of one extraordinary (WO)man.
+    						</h3>
+                           <h6>Elbert Hubbard</h6>
+                           <small>American Writer</small>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="item">
+                  <div class="row">
+                     <div class="col-md-8 offset-md-2 col-sm-10 offset-sm-1">
+                        <div class="testimonial-quote darkcolor">
+                           <h3 class="bottom30 font-xlight">The question isn't if it can be achieved, rather than HOW it can be achieved.</h3>
+                           <h6>Grace Cuttino</h6>
+                           <small>Developer, Graceful Dezigns</small>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="item">
+                  <div class="row">
+                     <div class="col-md-8 offset-md-2 col-sm-10 offset-sm-1">
+                        <div class="testimonial-quote darkcolor">
+                           <h3 class="bottom30 font-xlight">“If we want users to like our software, we should design it to behave like a likeable person: respectful, generous and helpful.”</h3>
+                           <h6>Alan Cooper</h6>
+                           <small>Software Programmer</small>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+              </div>
+         </div>
+      </div>
+   </div>
+</section>
+<!--Qoutes Ends-->
+<!-- About Me-->   
+<section id="our-team" class="angle--top-right padding bglight teambg" style="margin-top:-108px;"> 
+   <div class="container">
+	   <div class="row ">
+         <div class="col-md-8 offset-md-2 col-sm-12 text-center ">
+            <div class="heading-title wow fadeInUp" data-wow-delay="300ms">
+               <span>Whiz at Work</span>
+               <h2 class="fontbold text-capitalize darkcolor">About Me</h2>
+               <h5 class="heading_space" style="color:#000000;">As a creative and experienced professional in UX, web, and graphics designs, I understand the power of engaging applications to produce incredible results! I obsess myself over UI without losing the focus of overall big picture. Creating visually compelling and beautiful websites is only the tip of the iceberg! A key focus of mine is making these technologies humane, meaningful, and functional for the user.  My area of expertise lies in frontend development, UX design, and graphic design.  As a web performance architect, I work in many technical ecosystems for Enterprise Cloud Monitoring platforms. I recently received my certification demonstrating my knowledge in monitoring end to end environments starting with data centers, host, processes, services, to the applications layer. My current role along with my previous career path has given me a keen of understanding of web infrastructures and the user’s experience. In my spare time you can find me crafting art compositions in the non-technical arena! </h5>
+            </div>
+         </div>
+      </div>
+	   <div class="row">
+         <div class="col-md-8 offset-md-2">
+			 	  <img src="images/clickme.png"/>
+                  <div class="wow fadeInUp" data-wow-delay="350ms">
+					<figure class="snip1190 overlay2">
+					<div id="cf2">		
+           				 <div class="shadow">
+					  		<img class="bottom " src="http://gracefulwebdezigns.com/new/images/front_sm.jpg" /> 
+							 	<div class="overlay1"></div>
+					  		<img class="top  hover" src="http://gracefulwebdezigns.com/new/images/back_sm.jpg"/>
+						</div>		  
+  					</div>					
+					<figcaption>
+						<div class="square ">
+            				<div></div>
+            			</div>
+    						<h2>Coder &amp;<span> Designer</span></h2>
+						<p id="cf_onclick">Click to Meet Me</p>
+  					</figcaption>
+					</figure>			  
+				 </div>			
+			 </div> 
+		</div>
+   	</div>
+</section>      
+<!-- About Me-->
+<!-- Resume and Skills -->  
+<section id="our-apps" class="padding">
+   <div class="container">
+      <div class="row">
+         <div class="col-md-12 col-sm-12 text-center">
+            <div class="heading-title wow fadeInUp" data-wow-delay="300ms">
+               <span>Check the CV Out!!!</span>
+               <h2 class="darkcolor heading_space">Skills That Stand Out</h2>
+            </div>
+         </div>
+      </div>
+      <div class="row" id="app-feature">
+         <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="content-left clearfix">
+               <div class="feature-item left top30 bottom30 wow fadeInUp" data-wow-delay="300ms">
+                  <span class="icon"><i class="fa fa-mobile-phone"></i></span>
+                  <div class="text">
+                     <h4 class="bold-heading">UX/UI Design</h4>
+                     <p>UX is approached the right way through Adobe's Creative Suite, Sketch and Invision.</p>
+					  
+                  </div>
+               </div>
+               <div class="feature-item left top30 bottom30 wow fadeInUp" data-wow-delay="350ms">
+				   <span class="icon"><i class="fab fa-adobe"></i></span>
+                  <div class="text">
+                     <h4 class="bold-heading">Graphic Design</h4>
+                     <p>Photoshop and Illustrator are tools used here to get the job done!</p>
+                  </div>
+               </div>
+				<div class="feature-item right top30 bottom30 wow fadeInUp" data-wow-delay="400ms">
+                  <span class="icon"><i class="fas fa-cogs"></i></span>
+                  <div class="text">
+                     <h4 class="bold-heading">Performance</h4>
+                     <p>From host servers, process, services, grace has experience with many web infrastructures and optimizing performance.</p>
+                  </div>
+               </div>
+             </div>
+         </div>
+         <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="image feature-item text-center  wow fadeIn" data-wow-delay="500ms">
+			 <div class="cbp-item itemshadow">
+            <img src="images/res-sm.jpg" alt="res">
+            <div class="overlay center-block whitecolor">
+               <a class="plus" data-fancybox="gallery" href="images/resume.png"></a>
+               <h4 class="top30">Read More!</h4>
+             
+            </div>
+         </div>
+            </div>
+         </div>
+         <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="content-right clearfix">
+               <div class="feature-item right top30 bottom30 wow fadeInUp" data-wow-delay="300ms">
+                  <span class="icon"><i class="fa fa-code"></i></span>
+                  <div class="text">
+                     <h4 class="bold-heading">Web Development</h4>
+                     <p>Grace's expertise lies in HTML, CSS, JavaScript being very enthusiastic about the front-end!</p>
+                  </div>
+               </div>
+               <div class="feature-item right top30 bottom30 wow fadeInUp" data-wow-delay="350ms">
+                  <span class="icon"><i class="fas fa-star"></i></span>
+                  <div class="text">
+                     <h4 class="bold-heading">Logo and Branding</h4>
+                     <p>Identity, Identity, Identity! Grace's unique approach to design is sure to captivate your audience.</p>
+                  </div>
+               </div>
+               <div class="feature-item left top30 bottom30 wow fadeInUp" data-wow-delay="400ms">
+                  <span class="icon"><i class="fa fa-edit"></i></span>
+                  <div class="text">
+                     <h4 class="bold-heading">Content Development</h4>
+                     <p>Your website is only as good content. Grace can assist in connecting you with the right content writer.</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>                                                                                 
+<!--Resume and Skills ends-->      
+<!-- Counters -->
+<section id="funfacts" class="padding_top fact-iconic gradient_bg">
+   <div class="container">
+      <div class="row">
+         <div class="col-md-4 col-sm-10 offset-sm-1 margin_bottom whitecolor text-md-left text-center wow fadeInLeft" data-wow-delay="300ms">
+            <h3 class="bottom25">With many years of experience</h3>
+            <p class="title">Professional achievements are displayed in ratings, which shows the acquired skills and trust of many clients.</p>
+         </div>
+         <div class="col-md-6 col-sm-10 offset-sm-1 text-center">
+            <div class="row">
+               <div class="col-md-4 col-sm-4 icon-counters whitecolor margin_bottom  wow fadeInRight" data-wow-delay="400ms">
+                  <div class="img-icon bottom15">
+                     <i class="fa fa-smile-o"></i>
+                  </div>
+                  <div class="counters">
+                     <span class="count_nums" data-to="100" data-speed="2500"> </span> <i class="fas fa-percent"></i>
+                  </div>
+                  <p class="title">Satisfied Clients &nbsp;<i class="fas fa-magic"></i></p>
+               </div>
+               <div class="col-md-4 col-sm-4 icon-counters whitecolor margin_bottom wow fadeInRight" data-wow-delay="350ms">
+                  <div class="img-icon bottom15">
+                     <i class="fa fa-language"> </i>
+                  </div>
+                  <div class="counters">
+                     <span class="count_nums" data-to="100" data-speed="2500"> </span><i class="fas fa-percent"></i>
+                  </div>
+                  <p class="title">Completed Projects Ratings  &nbsp;<i class="fas fa-code-branch"></i></p>
+               </div>
+               <div class="col-md-4 col-sm-4 icon-counters whitecolor margin_bottom wow fadeInRight" data-wow-delay="300ms">
+                  <div class="img-icon bottom15">
+                     <i class="fa fa-desktop"></i>
+                  </div>
+                  <div class="counters">
+                     <span class="count_nums" data-to="100" data-speed="2500"> </span> <i class="fas fa-percent"></i>
+                  </div>
+                  <p class="title">Demonstrated Working Knowledge &nbsp;<i class="fas fa-code"></i></p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+<!--Counters ends-->  
+<!-- Testimonials -->  
+<section id="our-testimonial" class="padding">
+   <div class="container">
+      <div class="row">
+         <div class="col-md-12 col-sm-12 text-center">
+            <div class="heading-title bottom30 wow fadeInUp" data-wow-delay="300ms">
+               <span>The Buzz</span>
+               <h2 class="darkcolor">What people are saying!</h2>
+            </div>
+         </div>
+      </div>
+      <div class="row">
+         <div class="col-md-12 col-sm-12">
+            <div id="testimonial-slider" class="owl-carousel">
+               <div class="item">
+                  <div class="testimonial-wrapp">
+                     <span class="quoted"><i class="fa fa-quote-right"></i></span>
+                     <div class="testimonial-text">
+                        <p class="bottom40">We have been very impressed by Grace’s ability to read our minds and deliver an identity that perfectly symbolizes our vision and conveys the stylish, elegant and modern finished product!</p>
+                     </div>
+                     <div class="testimonial-photo"><img alt="" src="images/testimonial-1.jpg"></div>
+                     <h4 class="darkcolor">Ann P.</h4>
+                     <small class="defaultcolor">Business Owner</small>
+                  </div>
+               </div>
+               <div class="item">
+                  <div class="testimonial-wrapp">
+                     <span class="quoted"><i class="fa fa-quote-right"></i></span>
+                     <div class="testimonial-text">
+                        <p class="bottom40">Grace Dezigns was a pleasure to work with. Not only does she know what she’s doing, she is very thorough and explains their processes well.  I will continue to work with Graceful Dezigns and recommend them.</p>
+                     </div>
+                     <div class="testimonial-photo"><img alt="" src="images/testimonial-2.jpg"></div>
+                     <h4 class="darkcolor">Gina A.</h4>
+                     <small class="defaultcolor">Business Owner</small>
+                  </div>
+               </div>
+               <div class="item">
+                  <div class="testimonial-wrapp">
+                     <span class="quoted"><i class="fa fa-quote-right"></i></span>
+                     <div class="testimonial-text">
+                        <p class="bottom40">My company reached out to Graceful Dezigns to update our old dated website.  Graceful Dezigns redesigned it into modern and attractive site and couldn't be any happier with the update! I was impressed with how easy she is to communicate with; explaining each step and doesn’t talk over your head with tech jargon. She pulled off some very tricky programming feats to get the site to do what we wanted, while not losing sight of the needed!</p>
+
+                     </div>
+                     <div class="testimonial-photo"><img alt="" src="images/testimonial-3.jpg"></div>
+                     <h4 class="darkcolor">Todd M.</h4>
+                     <small class="defaultcolor">Business Owner</small>
+                  </div>
+               </div>
+               <div class="item">
+                  <div class="testimonial-wrapp">
+                     <span class="quoted"><i class="fa fa-quote-right"></i></span>
+                     <div class="testimonial-text">
+                        <p class="bottom40">We were looking for a very specific illustration and provided clear instructions, Grace was very quick to produce an initial draft which was almost perfect. A single revision completed within a day resulted in exactly what we were looking for. She is highly recommended!</p>
+                     </div>
+                     <div class="testimonial-photo"><img alt="" src="images/testimonial-1.jpg"></div>
+                     <h4 class="darkcolor">David H.</h4>
+                     <small class="defaultcolor">Business Owner</small>
+                  </div>
+               </div>
+               <div class="item">
+                  <div class="testimonial-wrapp">
+                     <span class="quoted"><i class="fa fa-quote-right"></i></span>
+                     <div class="testimonial-text">
+                        <p class="bottom40">Grace did an EXCELLENT job on my project! She has good communication, is very attentive to details, very prompt to demands, knows how to please the customer, and very professional. I would be happy to work with her again!</p>
+                     </div>
+                     <div class="testimonial-photo"><img alt="" src="images/testimonial-2.jpg"></div>
+                     <h4 class="darkcolor">Ashley J.</h4>
+                     <small class="defaultcolor">Business Owner</small>
+                  </div>
+               </div>
+              </div>
+         </div>
+      </div>
+   </div>
+</section>
+<!--Testimonials Ends-->
+<!-- Known Software -->  
+<section id="logos" class="padding_bottom">
+   <div class="container">
+     <h3 class="invisible">hidden</h3>
+      <div class="row">
+         <div class="col-md-12 col-sm-12">
+            <div id="partners-slider" class="owl-carousel">
+               <div class="item">
+                  <div class="logo-item"> <img alt="" src="images/adobe.png"></div>
+               </div>
+               <div class="item">
+                  <div class="logo-item"><img alt="" src="images/code.png"></div>
+               </div>
+               <div class="item">
+                  <div class="logo-item"><img alt="" src="images/wordpress.png"></div>
+               </div>
+               <div class="item">
+                  <div class="logo-item"><img alt="" src="images/az1.png"></div>
+               </div>
+               <div class="item">
+                  <div class="logo-item"><img alt="" src="images/active.png"></div>
+               </div>
+               <div class="item">
+                  <div class="logo-item"><img alt="" src="images/zen.png"></div>
+               </div>
+            
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+<!--Known Software Ends-->
+<!-- Contact US-->
+<section id="contactus" class="padding_top">
+   <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-sm-10">
+           <div class="heading-title  wow fadeIn" data-wow-delay="300ms">
+               <span>Lets Get In Touch</span>
+               <h2 class="darkcolor">Contact</h2>
+            </div>
+        </div>
+		 <div class="row form wow fadeInUp col-md-12 col-sm-12">
+         <div class="col-md-6 col-sm-10 bgform"  data-wow-delay="350ms" style="padding-left: 0px; padding-right: 0px">
+			 <div class="col-md-6 col-sm-6" id="info">
+					<div class="txt1">
+						<span class="lnr lnr-map-marker"></span>
+					</div>
+
+					<div class="">
+						<span class="txt1 ">
+							Address
+						</span></br>
+
+						<span class="txt2">
+							Raleigh, NC Remote
+						</span>
+					</div>
+				
+					<div class="txt1 ">
+						<span class="lnr lnr-envelope"></span>
+					</div>
+
+					<div class="">
+						<span class="txt1 ">
+							General Questions
+						</span></br>
+						<span class="txt3">							
+						</span>
+					</div>
+				</div>
+	   		</div>	
+         	<div class="col-md-6 col-sm-10 padform">
+            <form class="getin_form wow fadeInUp" data-wow-delay="400ms" onsubmit="return false;">
+               <div class="row">
+
+                  <div class="col-sm-12" id="result"></div>
+				   
+				   <div class="col-md-12 col-sm-12 heading-title">
+                     <span>Drop a Line!</span>
+                  </div>
+
+                  <div class="col-md-6 col-sm-6">
+                     <div class="form-group bottom35">
+                        <input class="form-control" type="text" placeholder="First Name:" required id="first_name" name="first_name">
+                     </div>
+                  </div>
+                  <div class="col-md-6 col-sm-6">
+                     <div class="form-group bottom35">
+                        <input class="form-control" type="text" placeholder="Last Name:" required id="last_name" name="last_name">
+                     </div>
+                  </div>
+                  <div class="col-md-6 col-sm-6">
+                     <div class="form-group bottom35">
+                        <input class="form-control" type="email" placeholder="Email:" required id="email" name="email">
+                     </div>
+                  </div>
+                  <div class="col-md-6 col-sm-6">
+                     <div class="form-group">
+                        <input class="form-control" type="tel" placeholder="Phone:" id="phone" name="phone">
+                     </div>
+                  </div>
+                  <div class="col-md-12 col-sm-12">
+                     <div class="form-group bottom35">
+                        <textarea class="form-control" placeholder="Message" id="message" name="message"></textarea>
+                     </div>
+                  </div>
+                  <div class="col-sm-12">
+                  <button type="submit" class="button btnprimary" id="submit_btn" style="padding: .3rem 2rem;">
+				  <svg version="1.1" class="send-icn" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100px" height="36px" viewBox="0 0 100 36" enable-background="new 0 0 100 36" xml:space="preserve">
+					<path d="M100,0L100,0 M23.8,7.1L100,0L40.9,36l-4.7-7.5L22,34.8l-4-11L0,30.5L16.4,8.7l5.4,15L23,7L23.8,7.1z M16.8,20.4l-1.5-4.3
+				l-5.1,6.7L16.8,20.4z M34.4,25.4l-8.1-13.1L25,29.6L34.4,25.4z M35.2,13.2l8.1,13.1L70,9.9L35.2,13.2z" />
+				  </svg>		  
+				</button>  
+					  
+                  </div>
+               </div>
+            </form>
+         </div>
+		  </div>
+      </div>
+   </div>
+   <!--Location Map here-->
+ <div id="map"></div>
+       <script>
+      var map = L.map('map').setView([35.77103, -78.62366], 10);
+      L.tileLayer('https://maps.tilehosting.com/styles/streets/{z}/{x}/{y}.png?key=rM0rNZkrAa6x5Bp993e7',{
+        attribution: '<a href="https://www.maptiler.com/license/maps/" target="_blank">© MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">© OpenStreetMap contributors</a>',
+        crossOrigin: true
+      }).addTo(map);
+	  var marker = L.marker([35.80403, -78.62366]).addTo(map);
+    </script>
+
+  
+</section>
+<!--Contact US Ends-->                    
+      
+<!--Site Footer Here-->
+<footer id="site-footer" class="padding_half">
+   <div class="container">
+      <div class="row">
+         <div class="col-md-12 col-sm-12 text-center">
+            <ul class="social-icons bottom25 wow fadeInUp" data-wow-delay="300ms">
+               <li><a href="javascript:void(0)"><i class="fab fa-facebook-f"></i> </a> </li>
+               <li><a href="javascript:void(0)"><i class="fab fa-linkedin-in"></i> </a> </li>
+               <li><a href="javascript:void(0)"><i class="far fa-envelope"></i></a> </li>
+            </ul>
+            <p class="copyrights wow fadeInUp" data-wow-delay="350ms"> &copy; 2018 Graceful Dezigns <a href="#."></a> </p>
+         </div>
+      </div>
+   </div>
+</footer>
+<!--Footer ends-->   
+
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="js/jquery-3.1.1.min.js"></script>
+
+<!--Bootstrap Core-->
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+ 
+<script src="js/jquery.flipshow.min.js"></script>
+<script src="js/home.js"></script>
+<script src="js/theme.init.js"></script>
+
+<!--to view items on reach-->
+<script src="js/jquery.appear.js"></script>
+
+<!--Equal-Heights-->
+<script src="js/jquery.matchHeight-min.js"></script>
+
+<!--Owl Slider-->
+<script src="js/owl.carousel.min.js"></script>
+
+<!--number counters-->
+<script src="js/jquery-countTo.js"></script>
+ 
+<!--Parallax Background-->
+<script src="js/parallaxie.js"></script>
+  
+<!--Cubefolio Gallery-->
+<script src="js/jquery.cubeportfolio.min.js"></script>
+
+<!--FancyBox popup-->
+<script src="js/jquery.fancybox.min.js"></script> 
+
+
+<!-- Video Background-->
+<script src="js/jquery.background-video.js"></script>
+
+
+
+<!--TypeWriter-->
+<script src="js/typewriter.js"></script> 
+
+
+<!--Image-->
+
+
+<script type="text/javascript" src="js/jquery.transitions.js"></script>
+     
+<!--Particles-->
+<script src="js/particles.min.js"></script>            
+         
+<!--WOw animations-->
+<script src="js/wow.min.js"></script>
+            
+ <script src="assets/js/jquery.min.js"></script>
+ <script src="assets/js/bootstrap.min.js"></script>
+
+<!--Revolution SLider-->
+<script src="js/revolution/jquery.themepunch.tools.min.js"></script>
+<script src="js/revolution/jquery.themepunch.revolution.min.js"></script>
+<!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->
+<script src="js/revolution/extensions/revolution.extension.actions.min.js"></script>
+<script src="js/revolution/extensions/revolution.extension.carousel.min.js"></script>
+<script src="js/revolution/extensions/revolution.extension.kenburn.min.js"></script>
+<script src="js/revolution/extensions/revolution.extension.layeranimation.min.js"></script>
+<script src="js/revolution/extensions/revolution.extension.migration.min.js"></script>
+<script src="js/revolution/extensions/revolution.extension.navigation.min.js"></script>
+<script src="js/revolution/extensions/revolution.extension.parallax.min.js"></script>
+<script src="js/revolution/extensions/revolution.extension.slideanims.min.js"></script>
+<script src="js/revolution/extensions/revolution.extension.video.min.js"></script>
+
+
+<!--Map -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.1/leaflet.js"></script>
+<script src="js/functions.js"></script>	
+<script src="js/hover.js"></script>
+</body>
+</html>
