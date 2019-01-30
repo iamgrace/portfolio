@@ -8,7 +8,8 @@ http://gracefuldezigns.com/
 ## Objective
 This website was built using the latest and greatest technologies out today. I combined templates, CSS, JavaScript libraries, custom coding, and fonts to create a functional and intuitive interface that feels unique and engaging to the user. The project is responsive and cross browser functional.
  
-## Design I chose to start with a template which included color to represent creativity yet maintained a clean a simple design ensuring not over stimulate the audience.
+## Design 
+I chose to start with a template which included color to represent creativity yet maintained a clean a simple design ensuring not over stimulate the audience.
 
 ## Functionality
 For the about me section, I chose to make this section interactive by custom coding two libraries. These libraries are listed in the technical stack section, Hover Effect and CSS Cross Fade Transitions. Through adjusting the CSS and JavaScript, I achieved have affect that reveals a picture of myself upon the user’s interaction with the page element. Please see the final output here: https://codepen.io/gwd88/pen/jexBvw 
