@@ -22,47 +22,42 @@ To include best practices on load times, I used image compression optimization v
 
 ## Technical Challenges Faced and Overcame
 The template came with a few outdated libraries. Upon noticing the technical glitches, I researched on fixes for the FancyBox and Revolution Slider.  FancyBox needed a simple update to the latest version. Revolution Slider posed a bit more of a challenge. Auto play for the video would not work in Chrome only. Through the error console I tracked the issue to Google’s auto play policy that updated April 2018, which now does not allow auto play on muted videos. Article: https://developers.google.com/web/updates/2017/09/autoplay-policy-changes. After updating to latest version of Revolution Slider and a few more tweaks to the code this issue was resolved. 
+## Tech Stack/ Libraries 
+**Included with Template**
+-	jQuery
+-	Revolution Slider 
+-	Owl Carousel
+-	JQuery-MatchHeight
+-	Bootstrap
+-	Cube Portfolio  
+-	JQuery Parallaxie
+-	FancyBox 
+-	JQuery-CountTo
+-	JQuery Background Video
 
-## Tech Stack/ Libraries
- 
-Included with Template
-jQuery
-•	Revolution Slider 
-•	Owl Carousel
-•	JQuery-MatchHeight
-•	Bootstrap
-•	Cube Portfolio  
-•	JQuery Parallaxie
-•	FancyBox 
-•	JQuery-CountTo
-•	JQuery Background Video
+**CSS & Fonts**
+-	Bootstrap
+-	Revolution Slider
+-	Owl Carousel
+-	Animation
+-	Font-Awesome (Font Icons)
+-	Cube Portfolio
+-	JQuery.mb.YTPlayer
+-	FancyBox
+-		Google Fonts
+- Raleway
+-	Opensans
 
-CSS & Fonts
-•	Bootstrap
-•	Revolution Slider
-•	Owl Carousel
-•	Animation
-•	Font-Awesome (Font Icons)
-•	Cube Portfolio
-•	JQuery.mb.YTPlayer
-•	FancyBox
-•	Google Fonts
-•	Raleway
-•	Opensans
-
-Addtional Librairies I personally added
-•	MapTiler - https://github.com/mapbox/mapbox-gl-leaflet
-•	Porto Template -  http://okler.net/tests/porto/5.5.0/test-video.html 
-•	Angled Edges - https://github.com/NigelOToole/angled-edges 
-•	SVG- Send Button - https://codepen.io/erlenmasson/pen/azVZXQ/ 
-•	Hover Effect - https://codepen.io/littlesnippets/pen/LpgRxo
-•	CSS Cross Fade Transitions - https://github.com/richbradshaw/CSS-Transitions-Transforms-and-Animation/blob/master/cfimg3.php 
-•	Intro Font
+**Addtional Librairies I personally added**
+- MapTiler - https://github.com/mapbox/mapbox-gl-leaflet
+-	Porto Template -  http://okler.net/tests/porto/5.5.0/test-video.html 
+- Angled Edges - https://github.com/NigelOToole/angled-edges 
+-SVG- Send Button - https://codepen.io/erlenmasson/pen/azVZXQ/ 
+- Hover Effect - https://codepen.io/littlesnippets/pen/LpgRxo
+- CSS Cross Fade Transitions - https://github.com/richbradshaw/CSS-Transitions-Transforms-and-Animation/blob/master/cfimg3.php 
+- Intro Font
 
 ## Usage
 Once you have downloaded the code, run the commands below to view the demo.
 $ npm install
 $ run start-dev
-
-
-
