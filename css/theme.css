@@ -1,0 +1,690 @@
+@import "grid.less";
+@import "grid-framework.less";
+
+
+.container1 {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 768px) {
+  .container1 {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container1 {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container1 {
+    width: 1170px;
+  }
+}/* Home Intro */
+.home-intro {
+	background-color: #171717;
+	margin-bottom: 60px;
+	overflow: hidden;
+	padding: 20px 0 10px 0;
+	position: relative;
+	text-align: left;
+}
+
+.home-intro p {
+	color: #FFF;
+	display: inline-block;
+	font-size: 1.4em;
+	font-weight: 300;
+	max-width: 800px;
+	padding-top: 5px;
+}
+
+.home-intro p span {
+	color: #999;
+	display: block;
+	font-size: 0.8em;
+	padding-top: 5px;
+}
+
+.home-intro p em {
+	font-family: "Shadows Into Light", cursive;
+	font-size: 1.6em;
+}
+
+.home-intro .get-started {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	position: relative;
+	text-align: right;
+}
+
+.home-intro .get-started .btn {
+	position: relative;
+	z-index: 1;
+}
+
+.home-intro .get-started .btn i {
+	font-size: 1.1em;
+	font-weight: normal;
+	margin-left: 5px;
+}
+
+.home-intro .get-started a {
+	color: #FFF;
+}
+
+.home-intro .get-started a:not(.btn) {
+	color: #777;
+}
+
+.home-intro .learn-more {
+	margin-left: 15px;
+}
+
+.home-intro.light {
+	background-color: #E2E2E2;
+}
+
+.home-intro.light.secondary {
+	background-color: #E0E1E4;
+}
+
+.home-intro.light p {
+	color: #777;
+}
+
+/* Home Intro Compact */
+.home-intro-compact {
+	border-radius: 0 0 10px 10px;
+	margin-top: -10px;
+}
+
+.home-intro-compact p {
+	padding-left: 20px;
+}
+
+.home-intro-compact .get-started {
+	padding-right: 20px;
+}
+
+/* Responsive */
+@media (max-width: 767px) {
+	/* Home Intro */
+	.home-intro-compact {
+		margin-left: 0;
+		margin-right: 0;
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+/* Home Concept */
+.home-concept {
+	background: transparent url(../images/home-concept.png) no-repeat center 0;
+	width: 100%;
+	overflow: hidden;
+}
+
+.home-concept strong {
+	display: block;
+	font-family: "Shadows Into Light", cursive;
+	font-size: 2.1em;
+	font-weight: normal;
+	position: relative;
+	margin-top: 30px;
+}
+
+.home-concept .row {
+	position: relative;
+}
+
+.home-concept .process-image {
+	background: transparent url(../images/home-concept-item.png) no-repeat 0 0;
+	width: 160px;
+	margin: 135px auto 0 auto;
+	padding-bottom: 50px;
+	position: relative;
+	z-index: 1;
+}
+
+.home-concept .process-image img {
+	border-radius: 150px;
+	margin: 7px 8px;
+	width: auto;
+	height: auto;
+	max-width: 145px;
+	max-height: 145px;
+}
+
+.home-concept .our-work {
+	margin-top: 52px;
+	font-size: 2.6em;
+}
+
+.home-concept .project-image {
+	background: transparent url(../images/home-concept-item.png) no-repeat 100% 0;
+	width: 350px;
+	margin: 30px 0px 0px 80px;
+	padding-bottom: 45px;
+	position: relative;
+	z-index: 1;
+}
+
+.home-concept .sun {
+	background: transparent url(../images/home-concept-icons.png) no-repeat 0 0;
+	width: 60px;
+	height: 56px;
+	display: block;
+	position: absolute;
+	left: 10%;
+	top: 35px;
+}
+
+.home-concept .cloud {
+	background: transparent url(../images/home-concept-icons.png) no-repeat 100% 0;
+	width: 116px;
+	height: 56px;
+	display: block;
+	position: absolute;
+	left: 57%;
+	top: 35px;
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+	.home-concept {
+		background: none;
+	}
+
+	.home-concept .project-image {
+		margin: 20px auto 0 auto;
+	}
+
+	.home-concept .process-image {
+		margin-top: 0;
+		padding-bottom: 25px;
+	}
+}
+
+@media (max-width: 479px) {
+	.home-concept .project-image {
+		background-position: 0 0;
+		margin-left: auto;
+		max-width: 160px;
+	}
+
+	.home-concept .fc-slideshow {
+		max-width: 145px;
+		height: 145px;
+	}
+
+	.home-concept .fc-slideshow img {
+		max-height: 145px;
+		max-width: 145px;
+	}
+}
+
+.align-center, .center {
+	text-align: center !important;
+}
+.pad {
+	margin-right: -15px;
+	margin-left: -15px;
+	padding-left: 10em;
+	
+}
+@media screen and (max-width: 650px) {
+  .pad {
+  padding-left: 0em!important;
+  padding-top: 6em !important;
+	  
+}
+}
+.fc-slideshow {
+	position: relative;
+	width: 338px;
+	height: 338px;
+	border-radius: 50%;
+	margin: 0 auto;
+	-webkit-perspective: 1200px;
+	-moz-perspective: 1200px;
+	perspective: 1200px;
+	top: 6px;
+}
+
+.fc-slideshow nav {
+	top: 0;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	z-index: 10000;
+	display: none;
+}
+
+.fc-slideshow nav > div {
+	position: absolute;
+	height: 100%;
+	top: 0;
+	width: 50%;
+}
+
+.fc-slideshow nav .fc-left {
+	left: 0;
+}
+
+.fc-slideshow nav .fc-right {
+	right: 0;
+}
+
+.fc-slideshow nav > div span {
+	height: 33%;
+	width: 100%;
+	position: absolute;
+	left: 0;
+}
+
+.fc-slideshow nav > div span:first-child {
+	top: 0;
+}
+
+.fc-slideshow nav > div span:nth-child(2) {
+	top: 33%;
+}
+
+.fc-slideshow nav > div span:nth-child(3) {
+	top: 66%;
+}
+
+.fc-slideshow nav i,
+.no-csstransforms3d .fc-slideshow nav > div span {
+	position: absolute;
+	width: 100%;
+	height: 40px;
+	top: 50%;
+	margin-top: -20px;
+	pointer-events: none;
+	opacity: 0;
+	-webkit-backface-visibility: hidden;
+	-webkit-transition: all 0.2s ease;
+	-moz-backface-visibility: hidden;
+	-moz-transition: all 0.2s ease;
+	backface-visibility: hidden;
+	transition: all 0.2s ease;
+}
+
+/* Some fallbacks */
+.no-csstransforms3d .fc-slideshow nav > div span {
+	z-index: 1000;
+	width: 40px;
+	background: rgba(0,0,0,0);
+}
+
+.no-csstransforms3d .fc-slideshow nav .fc-left span {
+	left: -80px;
+}
+
+.no-csstransforms3d .fc-slideshow nav .fc-right span {
+	right: -80px;
+	left: auto;
+}
+
+.no-csstransforms3d .fc-slideshow nav i {
+	width: 40px;
+	cursor: pointer;
+}
+
+.fc-slideshow nav .fc-left i {
+	-webkit-transform-origin: 100% 50%;
+	-moz-transform-origin: 100% 50%;
+	transform-origin: 100% 50%;
+	text-align: left;
+}
+
+.fc-slideshow nav .fc-right i {
+	-webkit-transform-origin: 0% 50%;
+	-moz-transform-origin: 0% 50%;
+	transform-origin: 0% 50%;
+	text-align: right;
+}
+
+.csstransforms3d .fc-slideshow nav > div span:hover ~ i,
+.no-csstransforms3d .fc-slideshow nav i,
+.no-csstransforms3d .fc-slideshow nav > div span {
+	opacity: 1;
+}
+
+.csstransforms3d .fc-slideshow nav > div span:nth-child(2):hover ~ i{
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	transform: rotate(0deg);
+}
+
+.csstransforms3d .fc-slideshow nav > .fc-left span:first-child:hover ~ i,
+.csstransforms3d .fc-slideshow nav > .fc-right span:nth-child(3):hover ~ i {
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.csstransforms3d .fc-slideshow nav > .fc-right span:first-child:hover ~ i,
+.csstransforms3d .fc-slideshow nav > .fc-left span:nth-child(3):hover ~ i {
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+ul.fc-slides {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul.fc-slides li {
+	display: none;
+}
+
+.no-js ul.fc-slides li {
+	display: block;
+}
+
+.fc-flip {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+
+.fc-flip div {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	border-radius: 50%;
+	top: 0;
+	left: 0;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.fc-flip .fc-back {
+	-webkit-transform: rotateY(-180deg);
+	-moz-transform: rotateY(-180deg);
+	transform: rotateY(-180deg);
+}
+
+.fc-slideshow img {
+	border-radius: 50%;
+}
+
+.fc-slideshow h3 {
+	position: absolute;
+	color: #fff;
+	top: 50%;
+	margin-top: 30px;
+	line-height: 50px;
+	height: 50px;
+	left: 80px;
+	right: 80px;
+	background: #ff514c;
+	font-size: 22px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-align: center;
+	border-radius: 20% 10% 50% 5% / 25% 10% 30% 75%;
+}
+
+.fc-overlay-light,
+.fc-overlay-dark {
+	opacity: 0;
+}
+
+.fc-overlay-light {
+	background: rgba(255,255,255,1);
+}
+
+.fc-overlay-dark {
+	background: rgba(0,0,0,1);
+}
+
+/* No JS fallback */
+
+.no-js .fc-slideshow {
+	height: auto;
+	box-shadow: none;
+}
+
+.no-js .fc-slideshow h3 {
+	position: relative;
+	width: auto;
+	height: auto;
+	left: auto;
+	right: auto;
+	top: auto;
+	margin: 5px;
+}
+
+
+
+.angle--top-left {
+  position: relative;
+  overflow: hidden;
+  -webkit-clip-path: polygon(0 calc(0% + 7vw), 100% 0, 100% 100%, 0 100%);
+          clip-path: polygon(0 calc(0% + 7vw), 100% 0, 100% 100%, 0 100%);
+}
+
+@supports not ((-webkit-clip-path: polygon(0 calc(0% + 7vw), 100% 0, 100% 100%, 0 100%)) or (clip-path: polygon(0 calc(0% + 7vw), 100% 0, 100% 100%, 0 100%))) {
+  .angle--top-left::before, .angle--top-left::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    z-index: 10;
+    display: block;
+    border-style: solid;
+  }
+  .angle--top-left::before {
+    top: 0;
+    border-width: 8vw 100vw 0 0;
+    border-color: #fff transparent transparent transparent;
+  }
+}
+
+.angle--top-right {
+  position: relative;
+  overflow: hidden;
+  -webkit-clip-path: polygon(0 0, 100% calc(0% + 7vw), 100% 100%, 0 100%);
+          clip-path: polygon(0 0, 100% calc(0% + 7vw), 100% 100%, 0 100%);
+}
+
+@supports not ((-webkit-clip-path: polygon(0 0, 100% calc(0% + 7vw), 100% 100%, 0 100%)) or (clip-path: polygon(0 0, 100% calc(0% + 7vw), 100% 100%, 0 100%))) {
+  .angle--top-right::before, .angle--top-right::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    z-index: 10;
+    display: block;
+    border-style: solid;
+  }
+  .angle--top-right::before {
+    top: 0;
+    border-width: 8vw 0 0 100vw;
+    border-color: #fff transparent transparent transparent;
+  }
+}
+
+.angle--bottom-left {
+  position: relative;
+  overflow: hidden;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 7vw));
+          clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 7vw));
+}
+
+@supports not ((-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 7vw))) or (clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 7vw)))) {
+  .angle--bottom-left::before, .angle--bottom-left::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    z-index: 10;
+    display: block;
+    border-style: solid;
+  }
+  .angle--bottom-left::after {
+    bottom: 0;
+    border-width: 0 100vw 8vw 0;
+    border-color: transparent transparent #fff transparent;
+  }
+}
+
+.angle--bottom-right {
+  position: relative;
+  overflow: hidden;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% calc(100% - 7vw), 0 100%);
+          clip-path: polygon(0 0, 100% 0, 100% calc(100% - 7vw), 0 100%);
+}
+
+@supports not ((-webkit-clip-path: polygon(0 0, 100% 0, 100% calc(100% - 7vw), 0 100%)) or (clip-path: polygon(0 0, 100% 0, 100% calc(100% - 7vw), 0 100%))) {
+  .angle--bottom-right::before, .angle--bottom-right::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    z-index: 10;
+    display: block;
+    border-style: solid;
+  }
+  .angle--bottom-right::after {
+    bottom: 0;
+    border-width: 0 0 8vw 100vw;
+    border-color: transparent transparent #fff transparent;
+  }
+}
+
+.angle--both-left-left {
+  position: relative;
+  overflow: hidden;
+  -webkit-clip-path: polygon(0 calc(0% + 7vw), 100% 0, 100% 100%, 0 calc(100% - 7vw));
+          clip-path: polygon(0 calc(0% + 7vw), 100% 0, 100% 100%, 0 calc(100% - 7vw));
+}
+
+@supports not ((-webkit-clip-path: polygon(0 calc(0% + 7vw), 100% 0, 100% 100%, 0 calc(100% - 7vw))) or (clip-path: polygon(0 calc(0% + 7vw), 100% 0, 100% 100%, 0 calc(100% - 7vw)))) {
+  .angle--both-left-left::before, .angle--both-left-left::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    z-index: 10;
+    display: block;
+    border-style: solid;
+  }
+  .angle--both-left-left::before {
+    top: 0;
+    border-width: 8vw 100vw 0 0;
+    border-color: #fff transparent transparent transparent;
+  }
+  .angle--both-left-left::after {
+    bottom: 0;
+    border-width: 0 100vw 8vw 0;
+    border-color: transparent transparent #fff transparent;
+  }
+}
+
+.angle--both-right-right {
+  position: relative;
+  overflow: hidden;
+  -webkit-clip-path: polygon(0 0, 100% calc(0% + 7vw), 100% calc(100% - 7vw), 0 100%);
+          clip-path: polygon(0 0, 100% calc(0% + 7vw), 100% calc(100% - 7vw), 0 100%);
+}
+
+@supports not ((-webkit-clip-path: polygon(0 0, 100% calc(0% + 7vw), 100% calc(100% - 7vw), 0 100%)) or (clip-path: polygon(0 0, 100% calc(0% + 7vw), 100% calc(100% - 7vw), 0 100%))) {
+  .angle--both-right-right::before, .angle--both-right-right::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    z-index: 10;
+    display: block;
+    border-style: solid;
+  }
+  .angle--both-right-right::before {
+    top: 0;
+    border-width: 8vw 0 0 100vw;
+    border-color: #fff transparent transparent transparent;
+  }
+  .angle--both-right-right::after {
+    bottom: 0;
+    border-width: 0 0 8vw 100vw;
+    border-color: transparent transparent #fff transparent;
+  }
+}
+
+.angle--both-left-right {
+  position: relative;
+  overflow: hidden;
+  -webkit-clip-path: polygon(0 calc(0% + 7vw), 100% 0, 100% calc(100% - 7vw), 0 100%);
+          clip-path: polygon(0 calc(0% + 7vw), 100% 0, 100% calc(100% - 7vw), 0 100%);
+}
+
+@supports not ((-webkit-clip-path: polygon(0 calc(0% + 7vw), 100% 0, 100% calc(100% - 7vw), 0 100%)) or (clip-path: polygon(0 calc(0% + 7vw), 100% 0, 100% calc(100% - 7vw), 0 100%))) {
+  .angle--both-left-right::before, .angle--both-left-right::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    z-index: 10;
+    display: block;
+    border-style: solid;
+  }
+  .angle--both-left-right::before {
+    top: 0;
+    border-width: 8vw 100vw 0 0;
+    border-color: #fff transparent transparent transparent;
+  }
+  .angle--both-left-right::after {
+    bottom: 0;
+    border-width: 0 0 8vw 100vw;
+    border-color: transparent transparent #fff transparent;
+  }
+}
+
+.angle--both-right-left {
+  position: relative;
+  overflow: hidden;
+  -webkit-clip-path: polygon(0 0, 100% calc(0% + 7vw), 100% 100%, 0 calc(100% - 7vw));
+          clip-path: polygon(0 0, 100% calc(0% + 7vw), 100% 100%, 0 calc(100% - 7vw));
+}
+
+@supports not ((-webkit-clip-path: polygon(0 0, 100% calc(0% + 7vw), 100% 100%, 0 calc(100% - 7vw))) or (clip-path: polygon(0 0, 100% calc(0% + 7vw), 100% 100%, 0 calc(100% - 7vw)))) {
+  .angle--both-right-left::before, .angle--both-right-left::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    z-index: 10;
+    display: block;
+    border-style: solid;
+  }
+  .angle--both-right-left::before {
+    top: 0;
+    border-width: 8vw 0 0 100vw;
+    border-color: #fff transparent transparent transparent;
+  }
+  .angle--both-right-left::after {
+    bottom: 0;
+    border-width: 0 100vw 8vw 0;
+    border-color: transparent transparent #fff transparent;
+  }
+}
+
+.angle__content {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.angle--colour {
+  color: #fff;
+  background-color: #2196F3;
+  text-align: center;
+  padding: 10% 0;
+}
+
