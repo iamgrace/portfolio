@@ -44,7 +44,7 @@ The template came with a few outdated libraries. Upon noticing the technical gli
 -	Cube Portfolio
 -	JQuery.mb.YTPlayer
 -	FancyBox
--		Google Fonts
+-	Google Fonts
 - Raleway
 -	Opensans
 
