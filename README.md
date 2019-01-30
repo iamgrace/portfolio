@@ -1,5 +1,5 @@
 # README
-README
+
 Graceful Dezigns 
 http://gracefuldezigns.com/
 
@@ -58,7 +58,7 @@ Addtional Librairies I personally added
 •	CSS Cross Fade Transitions - https://github.com/richbradshaw/CSS-Transitions-Transforms-and-Animation/blob/master/cfimg3.php 
 •	Intro Font
 
-Usage
+##Usage
 Once you have downloaded the code, run the commands below to view the demo.
 $ npm install
 $ run start-dev
