@@ -3,7 +3,7 @@
 Graceful Dezigns 
 http://gracefuldezigns.com/
 
-## Redesign of my portfolio site to showcase my visual design talents and coding experience 
+*Redesign of my portfolio site to showcase my visual design talents and coding experience* 
 
 ## Objective
 This website was built using the latest and greatest technologies out today. I combined templates, CSS, JavaScript libraries, custom coding, and fonts to create a functional and intuitive interface that feels unique and engaging to the user. The project is responsive and cross browser functional.
